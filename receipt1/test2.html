@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>A Simple Responsive HTML Email</title>
+        <style type="text/css">
+        table{border-collapse: collapse;}
+        
+
+        @media only screen and (max-width: 520px) {
+        
+        table,tbody,hr{width: 100%}
+        body,table,td,p,a,hr{
+          -webkit-text-size-adjust:none;
+
+        }
+        td.para{
+        	padding-left: 15px;
+        	font-size: 13px;
+        }
+        table.details{
+        	font-size: 12px;
+        }
+        td.total{
+        	padding-right: 5px;
+        }
+
+
+
+        .responsive-image img {
+          
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+    }
+        </style>
+
+</head>
+        <body width="600px">
+        	<table border="0" width="600px">
+        		<tr>
+        			<td>
+        				<p>Thanks for your purchase. Here is a digital receipt of your order:</p>
+        			</td>
+        		</tr>
+        		<tr>
+        			<table border="0" width="600px">
+        				<tr>
+        					<td class="responsive-image" width="300px">
+        						 <img src="https://ci4.googleusercontent.com/proxy/ZOkNXmlbYpTBQV42TfU4O3uTbi4_cyQGmbx5V_O_wMLPFtN7yIF-BL03Ldrf4YmuDElFtU2EuKGfPRwspKVbkDwURYcIJbI08kcXg99YrSMYV9-b16wjJg=s0-d-e1-ft#http://1-dot-testskipwallet.appspot.com/assets/img/fc/MailLogo.png" height="47" width="200">
+      </td>
+      <td font-family:helvetica width="300px" class="para">
+      	<br><p >This is a digital receipt issued by FreeCultr.</p>
+
+      </td>
+
+        					</td>
+        				</tr>
+        			</table>
+        			<hr style="color:#ccc" width="600px" align="left">
+        			<table border="0" width="600px" class="details">
+        				<tr>
+        					<td width="340px">
+        						<b> Order No.:</b> 
+            <div style="display:inline">KNR14/800</div>
+            <br><br>
+          <b> Order placed on:</b>
+          <div style="display:inline">20/05/2014 00:00</div>
+
+          <br><br>
+          <b> Billed to:</b>
+          <div style="display:inline"><a href="mailto:neetesh@walletcircle.com" target="_blank">neetesh@walletcircle.com</a></div>
+
+          <br><br>
+          <b> Amount payable:</b> 
+          <br>
+          <div style="font-size:36px;padding-top:5px">
+            Rs.
+            <div style="display:inline">1853</div>
+            /-
+          </div>
+
+          <br><br>
+        					</td>
+        					<td width="260px" class="responsive-image">
+        						 <img src="https://ci3.googleusercontent.com/proxy/VT_9x6rU1ijc9mF_wMutmhok1TALCZIWPDenMJ378XCgmTuVLvNSZg8U_rVXlwTMd6AILyc7UnzlwNRDfYGVEGK9N6N7Wi1v_laLSoYshSGi8HtAlu0U83RklTo=s0-d-e1-ft#http://1-dot-testskipwallet.appspot.com/assets/img/fc/freecultrmap.png" style="border:solid #ddd 1px" width="250">
+        					</td>
+        				</tr>
+        			</table>
+        			<hr style="color:#ccc" align="left" width="600px">
+        			<b style="font-size:12px">Order Details:</b> <br>
+        			<table width="600px" border="0">
+        			<thead style="font-size:10px">
+        <tr>
+          <td width="5%">
+            SrNo
+          </td>
+          <td width="40%">
+            Product details
+          </td>
+          <td width="10%">
+            Qty
+          </td>
+          <td width="15%">
+            Rate
+          </td>
+          <td width="15%">
+            Discount
+          </td>
+          <td align="right" width="15%" class="total">
+            Sub Total
+          </td>
+        </tr>
+      </thead>
+       <tbody style="font-size:12px">
+       <tr>
+       <td>
+       &nbsp;
+       </td>
+       </tr>
+       <tr>
+       <td> 
+       1 
+       </td>
+       <td> 
+       8903845060142 
+       <br>
+       <b>Details:
+       </b>   
+       PENN-II-LONG-SLV-<wbr>CONTRASTMedium 
+       </td>
+       <td> 
+       1 
+       </td>
+       <td> 
+       799.0 
+       </td>
+       <td> 
+       257.1 
+       </td>
+       <td align="right"> 
+       541.89 
+       </td>
+        </tr>
+        <tr>
+        <td> 
+        2 
+        </td>
+        <td> 
+        8903845040892 
+        <br>
+        <b>Details:</b> 
+           SOLID  (1)                 Free Size 
+           </td>
+           <td> 
+           1 
+           </td>
+           <td> 
+           249.0 
+           </td>
+           <td> 
+           74.7 
+           </td>
+           <td align="right"> 
+           122.01 
+           </td>
+           </tr>
+           <tr>
+           <td> 
+           3 
+           </td>
+           <td> 
+           8903845049949 
+           <br>
+
+          <b>Details:
+          </b> 
+             RUTGERS-HENLEY 8%         Medium    
+             </td>
+             <td> 
+             1 
+             </td>
+             <td>
+              799.0 
+              </td>
+              <td> 
+              0.0 
+              </td>
+              <td align="right">
+               559.3 
+               </td>
+               </tr>
+               <tr>
+               <td> 
+               4 
+               </td>
+               <td> 
+               8903845093737 
+               <br>
+               <b>Details:
+               </b>   
+                Dexter                   Medium   
+                 </td>
+
+                 <td>
+                  1 
+                  </td>
+                  <td> 
+                  1499.0 
+                  </td>
+                  <td> 
+                  0.0 
+                  </td>
+                  <td align="right"> 
+                  1049.3 
+                  </td>
+                  </tr>
+                  </tbody>
+
+        			
+        			</table>
+        			<hr style="color:#ccc" align="left" width="600px">
+        			<table width="600px" border="0">
+        				<tr>
+        					<td width="50%">&nbsp;</td>
+        <td align="right" width="30%">
+          <b>
+          
+          <br> Total Discount:
+          <br> VAT (<div style="display:inline">5.00</div>%):
+          </b>
+        </td>
+        <td align="right" width="20%">
+          
+          <br><div style="display:inline">793.98</div>
+          <br><div style="display:inline">88.22</div>
+        </td>
+           <tr>
+           	<td width="50%">&nbsp;</td>
+        <td align="right" width="30%">
+          <b>Grand Total:</b>
+        </td>
+        <td align="right" width="20%">Rs. <div style="display:inline">1853</div></td>
+        
+      </tr>
+           </tr>
+        				</tr>
+        			</table>
+        			<hr style="margin-bottom:30px;margin-top:20px;color:#ccc" width="600px" align="left">
+        			<table width="600px" border="0">
+        				<tr>
+        					<td>
+        						<div style="font-size:24px" align="center">
+      Share Your #FREECULTR Moments
+      <br>
+      <a href="http://mandrillapp.com/track/click.php?u=30203724&amp;id=56940c3fd8944befa307184308ae991d&amp;url=http%3A%2F%2Fwww.facebook.com%2Ffreecultr&amp;url_id=c184f6285208762ab3d6eaed7758c5bf3faeeabb" target="_blank">  
+        <img src="https://ci4.googleusercontent.com/proxy/d9y2n8md7-dAI8ZOoCG7r24yRZUlsWCMydQcyxtoZTjL-meWGRB8AqkrRi2EKjKxGXVwOaAAukzs42UjLMbXvgZ62wUeLiuyvHcoMBmnCixjjxzBwk4BUA=s0-d-e1-ft#http://1-dot-testskipwallet.appspot.com/assets/img/fc/Facebook.png" style="padding:20px" height="34" width="15">
+      </a>
+      <a href="http://mandrillapp.com/track/click.php?u=30203724&amp;id=56940c3fd8944befa307184308ae991d&amp;url=http%3A%2F%2Fwww.twitter.com%2Ffreecultr&amp;url_id=09d3ac4719347223b928e6e3f21ff8f3ce643f40" target="_blank">  
+        <img src="https://ci6.googleusercontent.com/proxy/6WtRVxV3xiZrK11KpR5Iq0YTJwMqn9irHk1FHgVnlx-L7mTSDRzHNTzNYaLaG0AJ_kceX6EfZL3FtjihE_17lbl8Mk_RwMwNoaj8PaofRVDRyGSozc5P=s0-d-e1-ft#http://1-dot-testskipwallet.appspot.com/assets/img/fc/Twitter.png" style="padding:20px" height="27" width="33">
+      </a>
+      <a href="http://mandrillapp.com/track/click.php?u=30203724&amp;id=56940c3fd8944befa307184308ae991d&amp;url=http%3A%2F%2Fwww.instagram.com%2Ffreecultr&amp;url_id=d0cae215ecaacbe3fca0839aef3091c54c32fc45" target="_blank">
+        <img src="https://ci4.googleusercontent.com/proxy/ScXmNkmjmh_mNuucB1o_qDNoW3PwyrvENfwpLXMVhU-mipTOx244f8kjbIJhsiY43n4j-MRVR9KbE8Co4ZiiIZ2tpJ8T4J3PSJATChfjDkM0haOM7eyBQp4=s0-d-e1-ft#http://1-dot-testskipwallet.appspot.com/assets/img/fc/Instagram.png" style="padding:20px" height="33" width="33">
+      </a>
+    </div>
+
+    <div style="margin-top:50px;font-size:15px" align="center">
+      <b>For Customer Care Related Queries:</b>
+      <br><br>
+      Call Us: <a href="tel:%2B91%28120%296605100" value="+911206605100" target="_blank">+91(120)6605100</a> [<span tabindex="0" class="aBn" data-term="goog_182896448"><span class="aQJ">10:00AM to 7:00PM</span></span> Everyday]
+      <br>Or
+      <br>Email  us at <a href="mailto:care@freecultr.com" target="_blank">care@freecultr.com</a>
+    </div>
+    
+  </div>
+</div><img src="https://ci5.googleusercontent.com/proxy/19v33MTHa6MFsqAwRkRPQ9MMuQDmX32yMZ7eSxcIUppu64KKtTv4jQJZNb6lZYKAO4yMGJ3_4UYk5hewU7wTh0QSabX6iyFMTZXBsZipHpPS6vdYrbz_mjGYNL82anpARVfSueizla2Q-A=s0-d-e1-ft#http://mandrillapp.com/track/open.php?u=30203724&amp;id=56940c3fd8944befa307184308ae991d" height="1" width="1">
+        					</td>
+        				</tr>
+        			</table>
+        		</tr>
+        	</table>
+        </body>
+
+
+</html>
